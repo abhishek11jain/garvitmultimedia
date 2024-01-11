@@ -1,0 +1,74 @@
+*{text-decoration: none !important; outline: none !important; box-shadow: none !important; box-sizing: border-box !important;}
+html{scroll-behavior: smooth !important;}
+:root{
+    --theme-primary-color: ; 
+    --theme-secondary-color : ; 
+    --black-color : ;
+    --white-color : ;
+    --light-gray-color : ;
+}
+
+/* Font Size */
+.text-extra-large{font-size: ;}
+.text-large{font-size: ;}
+.text-medium{font-size: ;}
+.text-extra-small{font-size: ;}
+.text-small{font-size: ;}
+.text-regular{font-size: ;}
+
+
+/* Font color */
+.text-primary-theme{color: var();}
+.text-secondary-theme{color: var();}
+
+
+/* Font Weight */
+.fw-8{font-weight: 800 !important;}
+.fw-7{font-weight: 700 !important;}
+.fw-6{font-weight: 600 !important;}
+.fw-5{font-weight: 500 !important;}
+.fw-4{font-weight: 400 !important;}
+.fw-regular{font-weight: normal !important;}
+
+
+/* Buttons */
+.btn-primary-theme{}
+.btn-primary-theme:hover{}
+.btn-secondary-theme{}
+.btn-secondary-theme:hover{}
+.btn-primary-outline{}
+.btn-primary-outline:hover{}
+
+
+/* Border Raduis */
+.rounded-1{border-radius: 5px !important;}
+.rounded-2{border-radius: 10px !important;}
+.rounded-3{border-radius: 15px !important;}
+.rounded-4{border-radius: 20px !important;}
+.rounded-5{border-radius: 25px !important;}
+.rounded-6{border-radius: 30px !important;}
+
+
+/* Padding */
+.padding-7{padding: 7px 70px 70px 7px;}
+.padding-6{padding: 6px 60px 60px 6px;}
+.padding-5{padding: 5px 50px 50px 5px;}
+.padding-4{padding: 4px 40px 40px 4px;}
+.padding-3{padding: 3px 30px 30px 3px;}
+.padding-2{padding: 2px 20px 20px 2px;}
+.padding-1{padding: 1px 10px 10px 1px;}
+
+
+
+/* Navbar Start */
+/* Navbar End*/
+
+
+/* Slider Start */
+/* Slider End */
+
+
+/* Advertisement Start */
+/* Advertisement End */
+
+
