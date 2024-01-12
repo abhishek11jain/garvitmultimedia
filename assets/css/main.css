@@ -1,4 +1,4 @@
-*{text-decoration: none !important; outline: none !important; box-shadow: none !important; box-sizing: border-box !important;}
+*{text-decoration: none !important; outline: none !important; box-shadow: none !important;}
 html{scroll-behavior: smooth !important;}
 :root{
     --theme-primary-color: ; 
@@ -59,12 +59,35 @@ html{scroll-behavior: smooth !important;}
 .padding-1{padding: 1px 10px 10px 1px;}
 
 
+/* Section Padding */
+.section-padding-5{padding: 50px;}
+.section-padding-4{padding: 40px;}
+.section-padding-3{padding: 30px;}
+.section-padding-2{padding: 20px;}
+.section-padding-1{padding: 10px;}
+
+
+/* Alignment */
+.text-justify{text-align: justify;}
+.align-items-center{align-items: center;}
+.justify-content-center{justify-content: center;}
 
 /* Navbar Start */
 /* Navbar End*/
 
 
 /* Slider Start */
+.slider-section .carousel-indicators [data-bs-target]{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.slider-section .carousel-indicators{
+    display: grid;
+    right: -10%;
+    left: unset;
+    margin-bottom: 10rem;
+}
 /* Slider End */
 
 

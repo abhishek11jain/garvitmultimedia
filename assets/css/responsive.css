@@ -1,0 +1,14 @@
+@media only screen and (max-width : 767px){
+    /* Slider Section */
+.slider-section .carousel-indicators [data-bs-target]{
+    width: 6px;
+    height: 6px;
+    border-top: 0;
+    margin: 3px;
+    border-bottom: 4px;
+}
+.slider-section .carousel-indicators{
+    right: -10%;
+    margin-bottom: 2.2rem;
+}
+}
