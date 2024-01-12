@@ -1,4 +1,44 @@
 @media only screen and (max-width : 767px){
+    /* Font Size */
+    .text-mobile-extra-large {font-size: 24px;}
+    .text-mobile-large {font-size: 18px;}
+    .text-mobile-medium {font-size: 12px;}
+    .text-mobile-small {font-size: 10px;}
+    .text-mobile-extra-small {font-size: 8px;}
+
+
+    /* Section Padding */
+    .section-mobile-padding-5 {padding: 50px;}
+    .section-mobile-padding-4 {padding: 40px;}
+    .section-mobile-padding-3 {padding: 30px;}
+    .section-mobile-padding-2 {padding: 20px;}
+    .section-mobile-padding-1 {padding: 10px;}
+    .section-mobile-padding-0 {padding: 0;}
+
+
+    /* Border Raduis */
+    .rounded-mobile-1 {border-radius: 3px !important;}
+    .rounded-mobile-2 {border-radius: 6px !important;}
+    .rounded-mobile-3 {border-radius: 9px !important;}
+    .rounded-mobile-4 {border-radius: 12px !important;}
+    .rounded-mobile-5 {border-radius: 15px !important;}
+    .rounded-mobile-6 {border-radius: 18px !important;}
+
+
+
+    /* Alignment */
+    .text-center-block{text-align: unset !important;}
+
+    /* Row */
+    .row>*{padding-left: 3px !important; padding-right: 3px !important;}
+    .g-2, .gx-2, .g-3, .gx-3{--bs-gutter-x : 1.7rem !important}
+    .p-3{padding : 0.6rem !important}
+
+    
+    /* Section Title */
+    .section-title{padding-bottom: 15px;}
+
+
     /* Slider Section */
 .slider-section .carousel-indicators [data-bs-target]{
     width: 6px;
