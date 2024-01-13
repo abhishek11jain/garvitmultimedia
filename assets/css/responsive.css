@@ -57,4 +57,5 @@
 @media only screen and (device-width : 1024px) and (device-height : 1366px) and (orientation : portrait){
     .section-mobile-padding-1 {padding: 30px;}
     .package-section .service-image {height: 100px; width: 100px;}
+    .slider-section .carousel-indicators{margin-bottom: 5rem;}
 }

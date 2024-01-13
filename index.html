@@ -22,12 +22,98 @@
         <!-- Font Awasome Intro CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <!-- AOS Animation CDN -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     </head>
 
     <body>
 
         <!-- Header Section Start -->
             <section class="header-section">
+                <!-- Topbar Section Start  -->
+                    <div class="top-header top-header-bg d-lg-block d-sm-block d-none p-1">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7 col-md-6">
+                                    <div class="top-head-left">
+                                        <div class="top-contact">
+                                            <h3 class="text-regular mb-0 fw-5"><i class="fa fa-phone-square" aria-hidden="true"></i> <a href="tel:+1(91) XXX-XXX-XXX">+(91) XXX-XXX-XXXX</a></h3>
+                                        </div>
+                                        <div class="top-contact p-4 pt-0 pb-0">
+                                            <h3 class="text-regular mb-0 fw-5"><i class="fa fa-envelope-square" aria-hidden="true"></i> <a href="mailto:info@garvitmultimeida.com">info@garvitmultimedia.com</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-6">
+                                    <div class="top-header-right">
+                                        <div class="top-header-social">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" target="_blank">
+                                                        <i class="fa fa-facebook rounded-1"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank">
+                                                        <i class="fa fa-twitter rounded-1"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank">
+                                                        <i class="fa fa-linkedin-square rounded-1"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank">
+                                                        <i class="fa fa-instagram rounded-1"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Topbar Section End  -->
+
+                <!-- Main Menus Section Start -->
+                    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/images/logo.png" alt="company-logo" class="img-responsive img-fluid">
+                            </a>
+                            <button class="navbar-toggler d-lg-none " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item text-black-theme">
+                                        <a class="nav-link fw-5 text-black-theme text-regular" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item text-black-theme">
+                                        <a class="nav-link fw-5 text-black-theme text-regular" href="#">About Us</a>
+                                    </li>
+                                    <li class="nav-item text-black-theme">
+                                        <a class="nav-link fw-5 text-black-theme text-regular" href="#">Our Packages</a>
+                                    </li>
+                                    <li class="nav-item text-black-theme">
+                                        <a class="nav-link fw-5 text-black-theme text-regular" href="#">Our Services</a>
+                                    </li>
+                                    <li class="nav-item text-black-theme">
+                                        <a class="nav-link fw-5 text-black-theme text-regular" href="#">News &amp; Updates</a>
+                                    </li>
+                                </ul>
+                                <div class="d-flex text-end">
+                                    <button class="btn btn-primary-theme btn-large" type="button">
+                                        <i class="fa fa-phone" aria-hidden="true"></i> Contact Us
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                <!-- Main Menus Section End -->
 
             </section>
         <!-- Header Section End -->
@@ -35,21 +121,23 @@
 
         <!-- Slider Section Start -->
             <section class="slider-section">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://dummyimage.com/1920x550/ccc/fff.jpg" class="d-block w-100" alt="...">
+                <div data-aos="fade-up" data-aos-duration="2000">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
-                        <div class="carousel-item">
-                            <img src="https://dummyimage.com/1920x550/ccc/fff.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://dummyimage.com/1920x550/ccc/fff.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://dummyimage.com/1920x550/ccc/fff.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://dummyimage.com/1920x550/ccc/fff.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://dummyimage.com/1920x550/ccc/fff.jpg" class="d-block w-100" alt="...">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -59,29 +147,31 @@
 
         <!-- About Section Start -->
             <section class="about-section section-padding-5 section-mobile-padding-1">
-                <div class="container">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-lg-6 col-sm-12 order-lg-1 order-sm-2 order-2">
-                            <div class="about-content mr-20">
-                                <div class="section-title">
-                                    <span class="text-medium fw-4 text-black-theme text-mobile-medium">Garvit Multimedia | Indian Digital Marketing</span>
-                                    <h1 class="text-extra-large text-primary-theme text-mobile-large">Know more about Garvit Multimedia</h1>
-                                    <p class="text-justify text-regular text-mobile-medium text-black-theme">
-                                        Garvit Multimedia is a top-of-the-line creative multimedia company, established in the year 2014 ,committed to enhancing digital experiences by providing innovative and inventive solutions to small and large-scale businesses. Regularly, we aim to assist you in enlarging your brand’s online visibility, increasing reach & engagement with your target audience, and eventually driving sales. As an experienced and reputed digital marketing agency, we make sure all your viewers’ senses are seized. Our ultimate goal is to make consumers associate your brand with a smile.
-                                    </p>
-                                    <p class="text-justify text-regular text-mobile-medium text-black-theme">
-                                        Garvit Multimedia is one of the leading and fastest growing web design and application development company in India and delivering exceptional services to approximately 1500+ businesses, industrial, government entities to reach their goals. We know that every client has a different aspect of requirements that can be in the way of generating leads, increasing sales or boosting traffic on their virtual store fronts.
-                                    </p>
-                                    <p class="text-justify text-regular text-mobile-medium text-black-theme">
-                                        The company designs dynamic websites, manages social media networks, develops mobile apps and provides robust hosting solutions for some of the most recognized brands in the region.
-                                    </p>
-                                    <a href="#" class="btn btn-primary-theme">Get More Details</a>
+                <div data-aos="fade-up" data-aos-duration="2000">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-6 col-sm-12 order-lg-1 order-sm-2 order-2">
+                                <div class="about-content mr-20">
+                                    <div class="section-title">
+                                        <span class="text-medium fw-4 text-black-theme text-mobile-medium">Garvit Multimedia | Indian Digital Marketing</span>
+                                        <h1 class="text-extra-large text-primary-theme text-mobile-large">Know more about Garvit Multimedia</h1>
+                                        <p class="text-justify text-regular text-mobile-medium text-black-theme">
+                                            Garvit Multimedia is a top-of-the-line creative multimedia company, established in the year 2014 ,committed to enhancing digital experiences by providing innovative and inventive solutions to small and large-scale businesses. Regularly, we aim to assist you in enlarging your brand’s online visibility, increasing reach & engagement with your target audience, and eventually driving sales. As an experienced and reputed digital marketing agency, we make sure all your viewers’ senses are seized. Our ultimate goal is to make consumers associate your brand with a smile.
+                                        </p>
+                                        <p class="text-justify text-regular text-mobile-medium text-black-theme">
+                                            Garvit Multimedia is one of the leading and fastest growing web design and application development company in India and delivering exceptional services to approximately 1500+ businesses, industrial, government entities to reach their goals. We know that every client has a different aspect of requirements that can be in the way of generating leads, increasing sales or boosting traffic on their virtual store fronts.
+                                        </p>
+                                        <p class="text-justify text-regular text-mobile-medium text-black-theme">
+                                            The company designs dynamic websites, manages social media networks, develops mobile apps and provides robust hosting solutions for some of the most recognized brands in the region.
+                                        </p>
+                                        <a href="#" class="btn btn-primary-theme">Get More Details</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-12 order-lg-2 order-sm-1 order-1 d-lg-block d-sm-block d-none">
-                            <div class="about-img rounded-3 mb-2">
-                                <img src="https://dummyimage.com/700x450/ccc/fff.jpg" alt="About Images" class="img-responsive w-100 img-fluid rounded-3">
+                            <div class="col-lg-6 col-sm-12 order-lg-2 order-sm-1 order-1 d-lg-block d-sm-block d-none">
+                                <div class="about-img rounded-3 mb-2">
+                                    <img src="https://dummyimage.com/700x450/ccc/fff.jpg" alt="About Images" class="img-responsive w-100 img-fluid rounded-3">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -99,11 +189,13 @@
 
         <!-- Advertisement Section Start -->
             <section class="advertisement-section section-padding-2 section-mobile-padding-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="image">
-                                <img src="https://dummyimage.com/1450x300/ccc/fff.jpg" alt="advertisement-image" class="img-responsive img-fluid">
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="image">
+                                    <img src="https://dummyimage.com/1450x300/ccc/fff.jpg" alt="advertisement-image" class="img-responsive img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -113,64 +205,66 @@
 
 
         <!-- Packages Section Start -->
-            <section class="package-section section-padding-5 section-mobile-padding-1">
-                <div class="container">
-                    <div class="section-title section-padding-2 text-center text-center-block section-mobile-padding-0">
-                        <p class="mb-0 text-black-theme text-regular text-mobile-medium fw-4">Garvit Multimedia | Indian Digital Marketing</p>
-                        <h2 class="text-extra-large text-primary-theme text-mobile-large">Our Digital marketing projects</h2>
-                    </div>
-                    <div class="row g-2 ">
-                        <div class="col-lg-3 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/250x250/ccc/fff.jpg" alt="service-icon">
-                                </div>
-                                <h2 class="text-elips-1 text-large text-mobile-large">
-                                    <a href="#" class="d-block text-primary-theme text-mobile-large">Starter Package <span class="text-small text-dark">(Small Business)</span> </a>
-                                </h2>
-                                
-                                <p class="text-elips-4 text-regular text-justify text-black-theme text-mobile-medium text-mobile-medium">Take your small business to new heights with our tailored Starter Package. Perfectly crafted for businesses aiming to make a splash online, this package is your ticket to enhancing your brand, connecting with your audience, all while staying within your budget.</p>
-                                <h3 class="text-medium text-black-theme mb-3 text-mobile-la text-mobile-largerge">₹15,000 per month.</h3>
-                                <a href="#" class="btn btn-secondary-theme">Get More Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                            </div>
+            <section class="package-section section-padding-5 section-mobile-padding-1 bg-light">
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="container">
+                        <div class="section-title section-padding-2 text-center text-center-block section-mobile-padding-0">
+                            <p class="mb-0 text-black-theme text-regular text-mobile-medium fw-4">Garvit Multimedia | Indian Digital Marketing</p>
+                            <h2 class="text-extra-large text-primary-theme text-mobile-large">Our Digital marketing projects</h2>
                         </div>
-                        <div class="col-lg-3 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/250x250/ccc/fff.jpg" alt="service-icon">
+                        <div class="row g-2 ">
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/250x250/ccc/fff.jpg" alt="service-icon">
+                                    </div>
+                                    <h2 class="text-elips-1 text-large text-mobile-large">
+                                        <a href="#" class="d-block text-primary-theme text-mobile-large">Starter Package <span class="text-small text-dark">(Small Business)</span> </a>
+                                    </h2>
+                                    
+                                    <p class="text-elips-4 text-regular text-justify text-black-theme text-mobile-medium text-mobile-medium">Take your small business to new heights with our tailored Starter Package. Perfectly crafted for businesses aiming to make a splash online, this package is your ticket to enhancing your brand, connecting with your audience, all while staying within your budget.</p>
+                                    <h3 class="text-medium text-black-theme mb-3 text-mobile-la text-mobile-largerge">₹15,000 per month.</h3>
+                                    <a href="#" class="btn btn-secondary-theme">Get More Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                 </div>
-                                <h2 class="text-elips-1 text-large">
-                                    <a href="#" class="d-block text-primary-theme text-mobile-large">Growth Package <span class="text-small text-dark">(Medium Business)</span></a>
-                                </h2>
-                                <p class="text-elips-4 text-regular text-justify text-black-theme text-mobile-medium">Propel your medium-sized business to greater heights with our comprehensive Growth Package. Tailored for businesses ready to expand, this package serves as your blueprint for accelerating brand growth, engaging a wider audience, and maximizing your digital impact.</p>
-                                <h3 class="text-medium text-black-theme mb-3 text-mobile-large">₹30,000 per month.</h3>
-                                <a href="#" class="btn btn-secondary-theme">Get More Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/250x250/ccc/fff.jpg" alt="service-icon">
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/250x250/ccc/fff.jpg" alt="service-icon">
+                                    </div>
+                                    <h2 class="text-elips-1 text-large">
+                                        <a href="#" class="d-block text-primary-theme text-mobile-large">Growth Package <span class="text-small text-dark">(Medium Business)</span></a>
+                                    </h2>
+                                    <p class="text-elips-4 text-regular text-justify text-black-theme text-mobile-medium">Propel your medium-sized business to greater heights with our comprehensive Growth Package. Tailored for businesses ready to expand, this package serves as your blueprint for accelerating brand growth, engaging a wider audience, and maximizing your digital impact.</p>
+                                    <h3 class="text-medium text-black-theme mb-3 text-mobile-large">₹30,000 per month.</h3>
+                                    <a href="#" class="btn btn-secondary-theme">Get More Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                 </div>
-                                <h2 class="text-elips-1 text-large">
-                                    <a href="#" class="d-block text-primary-theme text-mobile-large">Enterprise Package <span class="text-small text-dark">(Large Business)</span></a>
-                                </h2>
-                                <p class="text-elips-4 text-regular text-justify text-black-theme text-mobile-medium">Take your large business to unparalleled digital heights with our comprehensive Enterprise Package. Tailored for enterprises aiming for digital dominance, this package serves as your strategic blueprint for expanding your brand influence, engaging diverse audiences, and maximizing your digital authority.</p>
-                                <h3 class="text-medium text-black-theme mb-3 text-mobile-large">₹50,000 per month.</h3>
-                                <a href="#" class="btn btn-secondary-theme">Get More Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/250x250/ccc/fff.jpg" alt="service-icon">
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/250x250/ccc/fff.jpg" alt="service-icon">
+                                    </div>
+                                    <h2 class="text-elips-1 text-large">
+                                        <a href="#" class="d-block text-primary-theme text-mobile-large">Enterprise Package <span class="text-small text-dark">(Large Business)</span></a>
+                                    </h2>
+                                    <p class="text-elips-4 text-regular text-justify text-black-theme text-mobile-medium">Take your large business to unparalleled digital heights with our comprehensive Enterprise Package. Tailored for enterprises aiming for digital dominance, this package serves as your strategic blueprint for expanding your brand influence, engaging diverse audiences, and maximizing your digital authority.</p>
+                                    <h3 class="text-medium text-black-theme mb-3 text-mobile-large">₹50,000 per month.</h3>
+                                    <a href="#" class="btn btn-secondary-theme">Get More Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                 </div>
-                                <h2 class="text-elips-1 text-large">
-                                    <a href="#" class="d-block text-primary-theme text-mobile-large">Unified Investment and Partnership Package</a>
-                                </h2>
-                                <p class="text-elips-4 text-regular text-justify text-black-theme text-mobile-medium">Embark on a collaborative journey toward success with our tailored Unified Investment and Partnership Package. Designed for businesses seeking unified growth through strategic partnerships and investments, this package serves as your gateway to forging powerful alliances, optimizing resources, and driving mutual success.</p>
-                                <h3 class="text-medium text-black-theme mb-3 text-mobile-large ">&nbsp;</h3>
-                                <a href="#" class="btn btn-secondary-theme">Get More Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/250x250/ccc/fff.jpg" alt="service-icon">
+                                    </div>
+                                    <h2 class="text-elips-1 text-large">
+                                        <a href="#" class="d-block text-primary-theme text-mobile-large">Unified Investment and Partnership Package</a>
+                                    </h2>
+                                    <p class="text-elips-4 text-regular text-justify text-black-theme text-mobile-medium">Embark on a collaborative journey toward success with our tailored Unified Investment and Partnership Package. Designed for businesses seeking unified growth through strategic partnerships and investments, this package serves as your gateway to forging powerful alliances, optimizing resources, and driving mutual success.</p>
+                                    <h3 class="text-medium text-black-theme mb-3 text-mobile-large ">&nbsp;</h3>
+                                    <a href="#" class="btn btn-secondary-theme">Get More Details <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -181,11 +275,13 @@
 
         <!-- Advertisement Section Start -->
             <section class="advertisement-section section-padding-2 section-mobile-padding-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="image">
-                                <img src="https://dummyimage.com/1450x300/ccc/fff.jpg" alt="advertisement-image" class="img-responsive img-fluid">
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="image">
+                                    <img src="https://dummyimage.com/1450x300/ccc/fff.jpg" alt="advertisement-image" class="img-responsive img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -195,88 +291,90 @@
 
 
         <!-- Services Section Start -->
-            <section class="service-section section-padding-5 section-mobile-padding-1">
-                <div class="container">
-                    <div class="section-title section-padding-2 text-center text-center-block section-mobile-padding-0">
-                        <p class="mb-0 text-black-theme text-regular text-mobile-medium fw-4">Garvit Multimedia | Indian Digital Marketing</p>
-                        <h2 class="text-extra-large text-primary-theme text-mobile-large">Our Key Services</h2>
-                    </div>
-                    <div class="row g-3">
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
-                                </div>
-                                <h2 class="text-elips-1 text-medium">
-                                    <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Media & Advertising</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium">We specialize in creating innovative media solutions that captivate audiences, ignite conversations, and deliver remarkable results. Our expertise spans Campaign Planning, Media Buying (Print, OOH, Radio), Media Planning, Performance Marketing, Marketplace Management, and Social Media Marketing</p>
-                                <a href="#" class="btn btn-secondary-theme">Get More Details</a>
-                            </div>
+            <section class="service-section section-padding-5 section-mobile-padding-1 bg-light">
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="container">
+                        <div class="section-title section-padding-2 text-center text-center-block section-mobile-padding-0">
+                            <p class="mb-0 text-black-theme text-regular text-mobile-medium fw-4">Garvit Multimedia | Indian Digital Marketing</p>
+                            <h2 class="text-extra-large text-primary-theme text-mobile-large">Our Key Services</h2>
                         </div>
-
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                        <div class="row g-3">
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-elips-1 text-medium">
+                                        <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Media & Advertising</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium">We specialize in creating innovative media solutions that captivate audiences, ignite conversations, and deliver remarkable results. Our expertise spans Campaign Planning, Media Buying (Print, OOH, Radio), Media Planning, Performance Marketing, Marketplace Management, and Social Media Marketing</p>
+                                    <a href="#" class="btn btn-secondary-theme">Get More Details</a>
                                 </div>
-                                <h2 class="text-elips-1 text-medium">
-                                    <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Brand Strategy</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium">We formulate brand strategies that resonate strongly with your audience, making a lasting impact in the dynamic realm of marketing. Our expertise includes Brand Launch, Go-to-Market Strategy, Brand Communication, Content Strategy, and ATL & BTL Strategy.</p>
-                                <a href="#" class="btn btn-secondary-theme">Get More Details</a>
                             </div>
-                        </div>
 
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-elips-1 text-medium">
+                                        <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Brand Strategy</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium">We formulate brand strategies that resonate strongly with your audience, making a lasting impact in the dynamic realm of marketing. Our expertise includes Brand Launch, Go-to-Market Strategy, Brand Communication, Content Strategy, and ATL & BTL Strategy.</p>
+                                    <a href="#" class="btn btn-secondary-theme">Get More Details</a>
                                 </div>
-                                <h2 class="text-elips-1 text-medium">
-                                    <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Design Solutions</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium">We craft visually stunning and functional designs that deeply connect with your audience. Our design services encompass Logo Design, Graphic Design, Packaging Design, Merchandising, Illustrations, Video Editing, and Motion Graphics.</p>
-                                <a href="#" class="btn btn-secondary-theme">Get More Details</a>
                             </div>
-                        </div>
 
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-elips-1 text-medium">
+                                        <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Design Solutions</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium">We craft visually stunning and functional designs that deeply connect with your audience. Our design services encompass Logo Design, Graphic Design, Packaging Design, Merchandising, Illustrations, Video Editing, and Motion Graphics.</p>
+                                    <a href="#" class="btn btn-secondary-theme">Get More Details</a>
                                 </div>
-                                <h2 class="text-elips-1 text-medium">
-                                    <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Content Solutions</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium">We produce both long and short forms of content for your brand, establishing a robust visual brand presence in the minds of consumers. Our services include Video Commercials (TVC / DVC), Photography (Product / Lifestyle), Influencer Management, and Short Form Content (Reels).</p>
-                                <a href="#" class="btn btn-secondary-theme">Get More Details</a>
                             </div>
-                        </div>
 
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-elips-1 text-medium">
+                                        <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Content Solutions</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium">We produce both long and short forms of content for your brand, establishing a robust visual brand presence in the minds of consumers. Our services include Video Commercials (TVC / DVC), Photography (Product / Lifestyle), Influencer Management, and Short Form Content (Reels).</p>
+                                    <a href="#" class="btn btn-secondary-theme">Get More Details</a>
                                 </div>
-                                <h2 class="text-elips-1 text-medium">
-                                    <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Web Development</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium">We design a seamless website experience to ensure smooth navigation for your audience. Our services include UI/UX, Web Development, Web Maintenance, Shopify, WordPress, Search Engine Optimization, E-Commerce, and WhatsApp/Email Marketing.</p>
-                                <a href="#" class="btn btn-secondary-theme">Get More Details</a>
                             </div>
-                        </div>
 
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-elips-1 text-medium">
+                                        <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Web Development</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium">We design a seamless website experience to ensure smooth navigation for your audience. Our services include UI/UX, Web Development, Web Maintenance, Shopify, WordPress, Search Engine Optimization, E-Commerce, and WhatsApp/Email Marketing.</p>
+                                    <a href="#" class="btn btn-secondary-theme">Get More Details</a>
                                 </div>
-                                <h2 class="text-elips-1 text-medium">
-                                    <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Digital Marketing</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium">We analyze content performance, gather insights, and optimize our strategies to achieve exceptional results. Our digital marketing services cover Amazon Management, Flipkart Management, Quick Commerce Support, Digital Marketing Services, Influencer Marketing, Meta Ads, Google Ads, and Data Analytics.</p>
-                                <a href="#" class="btn btn-secondary-theme">Get More Details</a>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-elips-1 text-medium">
+                                        <a href="#" class="d-block text-medium text-primary-theme text-mobile-large">Digital Marketing</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium">We analyze content performance, gather insights, and optimize our strategies to achieve exceptional results. Our digital marketing services cover Amazon Management, Flipkart Management, Quick Commerce Support, Digital Marketing Services, Influencer Marketing, Meta Ads, Google Ads, and Data Analytics.</p>
+                                    <a href="#" class="btn btn-secondary-theme">Get More Details</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -287,11 +385,13 @@
 
         <!-- Advertisement Section Start -->
             <section class="advertisement-section section-padding-2 section-mobile-padding-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="image">
-                                <img src="https://dummyimage.com/1450x300/ccc/fff.jpg" alt="advertisement-image" class="img-responsive img-fluid">
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="image">
+                                    <img src="https://dummyimage.com/1450x300/ccc/fff.jpg" alt="advertisement-image" class="img-responsive img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -301,97 +401,99 @@
 
 
         <!-- News & Update Section Start -->
-            <section class="news-update-section section-padding-5 section-mobile-padding-1">
-                <div class="container">
-                    <div class="section-title section-padding-2 text-center text-center-block section-mobile-padding-0">
-                        <p class="mb-0 text-black-theme text-regular text-mobile-medium fw-4">Garvit Multimedia | Indian Digital Marketing</p>
-                        <h2 class="text-extra-large text-primary-theme text-mobile-large">Our Latest News &amp; Updates</h2>
-                    </div>
-                    <div class="row g-3">
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
-                                </div>
-                                <h2 class="text-medium text-elips-2">
-                                    <a href="#" class="d-block text-primary-theme text-mobile-large">Smart Solutions for Your Business: AI Magic by Garvit Multimedia</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium text-elips-3">In the world of tech wonders, we're thrilled to introduce how artificial intelligence (AI) can make your business shine. At Garvit Multimedia, we've got the perfect AI services to make your business future-ready.</p>
-                                <div class="card-footer border-0">
-                                    <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+            <section class="news-update-section section-padding-5 section-mobile-padding-1 bg-light">
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="container">
+                        <div class="section-title section-padding-2 text-center text-center-block section-mobile-padding-0">
+                            <p class="mb-0 text-black-theme text-regular text-mobile-medium fw-4">Garvit Multimedia | Indian Digital Marketing</p>
+                            <h2 class="text-extra-large text-primary-theme text-mobile-large">Our Latest News &amp; Updates</h2>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-medium text-elips-2">
+                                        <a href="#" class="d-block text-primary-theme text-mobile-large">Smart Solutions for Your Business: AI Magic by Garvit Multimedia</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium text-elips-3">In the world of tech wonders, we're thrilled to introduce how artificial intelligence (AI) can make your business shine. At Garvit Multimedia, we've got the perfect AI services to make your business future-ready.</p>
+                                    <div class="card-footer border-0">
+                                        <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
-                                </div>
-                                <h2 class="text-medium text-elips-2">
-                                    <a href="#" class="d-block text-primary-theme text-mobile-large">Go Digital with Garvit Multimedia: Your Business, Our Digital Marketing Boost</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium" text-elips-3>In today's digital world, getting your business noticed online is super important. At Garvit Multimedia, we're here to give your business a boost with our awesome digital marketing services.</p>
-                                <div class="card-footer border-0">
-                                    <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-medium text-elips-2">
+                                        <a href="#" class="d-block text-primary-theme text-mobile-large">Go Digital with Garvit Multimedia: Your Business, Our Digital Marketing Boost</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium" text-elips-3>In today's digital world, getting your business noticed online is super important. At Garvit Multimedia, we're here to give your business a boost with our awesome digital marketing services.</p>
+                                    <div class="card-footer border-0">
+                                        <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
-                                </div>
-                                <h2 class="text-medium text-elips-2">
-                                    <a href="#" class="d-block text-primary-theme text-mobile-large">Garvit Multimedia: Making Your Brand Shine with Awesome Media & Ads</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium text-elips-3">In the big world of Media & Advertising, making your brand stand out is super important. At Garvit Multimedia, we're not just storytellers; we're experts at creating experiences that make people remember your brand.</p>
-                                <div class="card-footer border-0">
-                                    <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-medium text-elips-2">
+                                        <a href="#" class="d-block text-primary-theme text-mobile-large">Garvit Multimedia: Making Your Brand Shine with Awesome Media & Ads</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium text-elips-3">In the big world of Media & Advertising, making your brand stand out is super important. At Garvit Multimedia, we're not just storytellers; we're experts at creating experiences that make people remember your brand.</p>
+                                    <div class="card-footer border-0">
+                                        <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
-                                </div>
-                                <h2 class="text-medium text-elips-2">
-                                    <a href="#" class="d-block text-primary-theme text-mobile-large">Garvit Multimedia: Boost Your Business with Awesome Websites and Portals!</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium text-elips-3">In today's digital world, having a super cool online space is like having a secret weapon for your business. At Garvit Multimedia, we're not just creators; we're here to build websites and portals that make your business grow big.</p>
-                                <div class="card-footer border-0">
-                                    <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
-                                </div>
-                                <h2 class="text-medium text-elips-2">
-                                    <a href="#" class="d-block text-primary-theme text-mobile-large">Boost Your Online Sales: Garvit Multimedia's Easy Tips for Business Growth</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-mediu text-elips-3m">In the world of online business, selling more stuff is the goal, right? Well, at Garvit Multimedia, we're all about helping your business grow by making online sales super easy.</p>
-                                <div class="card-footer border-0">
-                                    <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-medium text-elips-2">
+                                        <a href="#" class="d-block text-primary-theme text-mobile-large">Garvit Multimedia: Boost Your Business with Awesome Websites and Portals!</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium text-elips-3">In today's digital world, having a super cool online space is like having a secret weapon for your business. At Garvit Multimedia, we're not just creators; we're here to build websites and portals that make your business grow big.</p>
+                                    <div class="card-footer border-0">
+                                        <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100">
-                                <div class="service-image mb-3">
-                                    <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-medium text-elips-2">
+                                        <a href="#" class="d-block text-primary-theme text-mobile-large">Boost Your Online Sales: Garvit Multimedia's Easy Tips for Business Growth</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-mediu text-elips-3m">In the world of online business, selling more stuff is the goal, right? Well, at Garvit Multimedia, we're all about helping your business grow by making online sales super easy.</p>
+                                    <div class="card-footer border-0">
+                                        <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+                                    </div>
                                 </div>
-                                <h2 class="text-medium text-elips-2">
-                                    <a href="#" class="d-block text-primary-theme text-mobile-large">Boost Your Business Online: Get a Stellar Website with Our Expert Development Services!</a>
-                                </h2>
-                                <p class="text-regular text-justify text-mobile-medium text-elips-3">In today's online world, having a super cool website is like having a storefront that's open 24/7. At Garvit Multimedia, we're here to make sure your online place not only looks amazing but also works like a charm to help your business shine.</p>
-                                <div class="card-footer border-0">
-                                    <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="services-card position-relative p-3 border rounded-2 rounded-mobile-2 h-100 bg-white-theme">
+                                    <div class="service-image mb-3">
+                                        <img src="https://dummyimage.com/700x400/ccc/fff.jpg" alt="service-icon" class="img-fluid img-responsive">
+                                    </div>
+                                    <h2 class="text-medium text-elips-2">
+                                        <a href="#" class="d-block text-primary-theme text-mobile-large">Boost Your Business Online: Get a Stellar Website with Our Expert Development Services!</a>
+                                    </h2>
+                                    <p class="text-regular text-justify text-mobile-medium text-elips-3">In today's online world, having a super cool website is like having a storefront that's open 24/7. At Garvit Multimedia, we're here to make sure your online place not only looks amazing but also works like a charm to help your business shine.</p>
+                                    <div class="card-footer border-0">
+                                        <p class="mb-0 text-small"><b class="text-primary-theme">Post By :</b> Ashish Bula | Last updated 20-Dec-2023</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -403,14 +505,136 @@
 
         <!-- Advertisement Section Start -->
             <section class="advertisement-section section-padding-2 section-mobile-padding-1">
-
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="image">
+                                    <img src="https://dummyimage.com/1450x300/ccc/fff.jpg" alt="advertisement-image" class="img-responsive img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         <!-- Advertisement Section End -->
 
 
         <!-- Footer Section Start -->
-            <section class="footer-section">
+            <section class="footer-section bg-light">
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="container">
+                        <div class="footer-top pt-5 pb-5">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="footer-widget">
+                                        <div class="footer-logo">
+                                            <a href="index.html">
+                                                <img src="assets/images/logo.png" class="img-fluid p-2 rounded-2" alt="Images">
+                                            </a>
+                                        </div>
+                                        <p class="text-justify text-regular text-black-theme">
+                                            Garvit Multimedia is a top-of-the-line creative multimedia company, established in the year 2014 ,committed to enhancing digital experiences by providing innovative and inventive solutions to small and large-scale businesses.
+                                        </p>
+                                    </div>
+                                </div>
 
+                                <div class="col-lg-2 col-sm-6 col-4 offset-lg-1">
+                                    <div class="footer-widget pl-2">
+                                        <h3 class="text-large fw-5 text-primary-theme">Quick Links</h3>
+                                        <ul class="footer-list p-0">
+                                            <li>
+                                                <a href="#" class="text-regular text-black-theme">
+                                                    <i class="fa fa-angle-double-right"></i> Home
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-regular text-black-theme">
+                                                    <i class="fa fa-angle-double-right"></i> About Us
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-regular text-black-theme">
+                                                    <i class="fa fa-angle-double-right"></i> Our Packages
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-regular text-black-theme">
+                                                    <i class="fa fa-angle-double-right"></i> Our Services
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-regular text-black-theme">
+                                                    <i class="fa fa-angle-double-right"></i> News &amp; Updates
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-6 col-8">
+                                    <div class="footer-widget pl-2">
+                                        <h3 class="text-large fw-5 text-primary-theme">Ethics Links</h3>
+                                        <ul class="footer-list p-0">
+                                            <li>
+                                                <a href="#" class="text-regular text-black-theme">
+                                                    <i class="fa fa-angle-double-right"></i> Terms &amp; Conditions
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-regular text-black-theme">
+                                                    <i class="fa fa-angle-double-right"></i> Privacy Policy
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-regular text-black-theme">
+                                                    <i class="fa fa-angle-double-right"></i> Contact Us
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="footer-widget">
+                                        <h3 class="text-large text-primary-theme fw-5">Get In Touch</h3>
+                                        <div class="contact-info pt-0">
+                                            <ul class=" p-0">
+                                                <li class="mb-3">
+                                                    <div class="content">
+                                                        <h3 class="text-regular fw-5 text-primary-theme"><i class="fa fa-phone-square"></i> Phone Number</h3>
+                                                        <a href="#" class="text-regular text-black-theme">+(91) XXX-XXX-XXXX </a>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="content">
+                                                        <h3 class="text-regular fw-5 text-primary-theme"><i class="fa fa-map-marker"></i> Address</h3>
+                                                        <a href="#" class="text-regular text-black-theme">Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text</a>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="content">
+                                                        <h3 class="text-regular fw-5 text-primary-theme"><i class="fa fa-envelope-square"></i> Contact Info</h3>
+                                                        <a href="#" class="text-regular text-black-theme">info@garvitmultimeida.com</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copy-right-area text-center border-top pt-4 pb-3 bg-black-theme">
+                        <div class="copy-right-text">
+                            <p class="text-white-theme">
+                                Copyright ©
+                                <script>document.write(new Date().getFullYear())</script>. All Rights Reserved by
+                                <a href="index.html" target="_blank" class="text-primary-theme fw-6">Garvit Multimedia | Indian Degital Marketing Agency.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
         <!-- Footer Section End -->
 
@@ -427,6 +651,13 @@
 
         <!-- Main Js -->
         <script src="assets/js/main.js"></script>
+
+
+        <!-- AOS Animation CDN -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
     </body>
 
