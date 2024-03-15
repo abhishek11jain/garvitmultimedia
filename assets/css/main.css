@@ -2,14 +2,14 @@
 
 html {scroll-behavior: smooth !important;}
 
-:root {--theme-primary-color: #0093CA; --theme-secondary-color:#1BA1A5; --black-color: #2B2A29; --white-color: #fff; --light-gray-color: #e6e6e6; --primary-transparent : #ace9ff3e;}
+:root {--theme-primary-color: #0093CA; --theme-secondary-color:#1BA1A5; --black-color: #2B2A29; --white-color: #fff; --light-gray-color: #e6e6e6; --primary-transparent : #ace9ff3e; --danger-theme : #dc3545;}
 
 
 /* Font Size */
 .text-extra-large {font-size: 28px;}
 .text-large {font-size: 20px;}
 .text-medium {font-size: 18px;}
-.text-regular {font-size: 14px;}
+.text-regular {font-size: 14px !important;}
 .text-small {font-size: 12px;}
 .text-extra-small {font-size: 10px;}
 
@@ -38,7 +38,8 @@ html {scroll-behavior: smooth !important;}
 .btn-primary-theme:hover {background: var(--white-color); color: var(--black-color); transition: 0.5s ease-in-out;}
 .btn-secondary-theme {background: var(--white-color); color: var(--black-color); transition: 0.5s ease-in-out; border: 1px solid var(--black-color); font-size: 10px; border-radius: 0;}
 .btn-secondary-theme:hover {background: var(--black-color); color: var(--white-color); transition: 0.5s ease-in-out;}
-
+.btn-danger-theme {background: var(--danger-theme); color: var(--white-color); transition: 0.5s ease-in-out; border: 1px solid var(--danger-theme); font-size: 10px; border-radius: 0;}
+.btn-danger-theme:hover {background: var(--white-color); color: var(--danger-theme); transition: 0.5s ease-in-out;}
 
 /* Border Raduis */
 .rounded-1 {border-radius: 5px !important;}
@@ -103,8 +104,8 @@ html {scroll-behavior: smooth !important;}
 .header-section .navbar .nav-link:hover{color: var(--theme-primary-color) !important;}
 
 /* Slider Start */
-.slider-section .carousel-indicators [data-bs-target] { width: 25px; height: 25px; border-radius: 50%;}
-.slider-section .carousel-indicators {display: grid; right: -10%; left: unset; margin-bottom: 10rem;}
+.slider-section .carousel-indicators [data-bs-target] { width: 20px; height: 20px; border-radius: 50%; margin: 10px;}
+.slider-section .carousel-indicators {display: flex; right: -9%; transform: rotate(90deg); left: unset; justify-content: center; align-items: center; top: 0;}
 /* Slider End */
 
 
@@ -119,3 +120,8 @@ html {scroll-behavior: smooth !important;}
 .package-section .services-card:hover::before {width: 100%; height: 100%; border-radius: 10px; opacity: 1 }
 .package-section .services-card:hover p,
 .package-section .services-card:hover h2 a { color: var(--black-color); }
+
+
+/* Modal Customized */
+.inquery-modal .modal-header .header .image{ height: 60px; width: 60px; }
+.inquery-modal .modal-header .header .image img{ height: 100%; width: 100%; object-fit: contain;}

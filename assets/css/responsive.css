@@ -42,7 +42,10 @@
 
     /* Slider Section */
     .slider-section .carousel-indicators [data-bs-target]{ width: 6px; height: 6px; border-top: 0; margin: 3px; border-bottom: 4px; }
-    .slider-section .carousel-indicators{ right: -10%; margin-bottom: 2.2rem; }
+    .slider-section .carousel-indicators{ margin-bottom: 0; }
+
+    /* Modal Customized */
+    .inquery-modal .modal-header .header .image{ height: 50px; width: 50px; }
 }
 
 
@@ -57,5 +60,5 @@
 @media only screen and (device-width : 1024px) and (device-height : 1366px) and (orientation : portrait){
     .section-mobile-padding-1 {padding: 30px;}
     .package-section .service-image {height: 100px; width: 100px;}
-    .slider-section .carousel-indicators{margin-bottom: 5rem;}
+    .slider-section .carousel-indicators{margin-bottom: 0rem;}
 }
