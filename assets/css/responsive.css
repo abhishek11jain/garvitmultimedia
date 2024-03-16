@@ -40,12 +40,21 @@
     .section-title{padding-bottom: 15px;}
 
 
+    /* Logo Style */
+    .logo img{width: 120px;}
+
+
     /* Slider Section */
-    .slider-section .carousel-indicators [data-bs-target]{ width: 6px; height: 6px; border-top: 0; margin: 3px; border-bottom: 4px; }
-    .slider-section .carousel-indicators{ margin-bottom: 0; }
+    .slider-section .carousel-indicators [data-bs-target]{ width: 10px;}
+    .slider-section .carousel-indicators {margin-right: 0; margin-bottom: 0;}
+    
 
     /* Modal Customized */
     .inquery-modal .modal-header .header .image{ height: 50px; width: 50px; }
+
+
+    /* Blog Section */
+    .author-detail{display: block !important;}
 }
 
 
@@ -61,4 +70,11 @@
     .section-mobile-padding-1 {padding: 30px;}
     .package-section .service-image {height: 100px; width: 100px;}
     .slider-section .carousel-indicators{margin-bottom: 0rem;}
+}
+
+
+/* IPAD Portrait */
+@media only screen and (device-width : 768px) and (device-height : 1024px) and (orientation : portrait){
+    .offcanvas-body ul { display: block !important; padding-left: 0; margin-bottom: 2em !important;}
+    .login-btn{display: none !important;}
 }
